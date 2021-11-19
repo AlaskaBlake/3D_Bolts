@@ -19,30 +19,26 @@ Call the module: washer(wash)
 
 # Bolt Definition
 
-[0] threadOuterDiameter
-
-      Outer diameter of the threads
-      
-[1] threadStep
-
-      M6=1, M8=1.25, M10=1.5, M12=1.75, M16=2
-      
-[2] stepShapeDegrees
-      Normally 30 degrees, for printing might want greater
-[3] threadLength
-      Lengh of threaded part of bolt
-[4] resolution
-      Higher resolution for displaying bolt due to its complexity
-[5] headDiameter
-      Distance between two faces of the head
-[6] headHeight
-      Heigt of hex head
-[7] nonThreadLength
-      Length of non-threaded part of bolt
-[8] nonThreadDiameter
-      -1 for inner diameter of threads, 0 for outer diameter of threads, other input is custom diameter
-[9] counterSink
-      Counter sink at both ends of bolt [-1:2]
+[0] threadOuterDiameter  
+      Outer diameter of the threads  
+[1] threadStep  
+      M6=1, M8=1.25, M10=1.5, M12=1.75, M16=2  
+[2] stepShapeDegrees  
+      Normally 30 degrees, for printing might want greater  
+[3] threadLength  
+      Lengh of threaded part of bolt  
+[4] resolution  
+      Higher resolution for displaying bolt due to its complexity  
+[5] headDiameter  
+      Distance between two faces of the head  
+[6] headHeight  
+      Heigt of hex head  
+[7] nonThreadLength  
+      Length of non-threaded part of bolt  
+[8] nonThreadDiameter  
+      -1 for inner diameter of threads, 0 for outer diameter of threads, other input is custom diameter  
+[9] counterSink  
+      Counter sink at both ends of bolt [-1:2]  
      
 # Nut Definition
 
