@@ -5,19 +5,19 @@ Math for threads was found analyzing code by Aubenc and Mike Thompson on Thingav
 For extra strength in your prints, it is advised for bolts that you print them sideways and a gap of 0.3mm between the bolt and nut.
 For vertical printing, a gap between the bolt and nut of 0.1mm.
 
-***Print A Bolt***
+# Print A Bolt
 Call the module: hexBolt(bolt)
     Takes a bolt(array of nums as defined below) and displays it to the screen.
     
-***Print A Nut***
+# Print A Nut
 Call the module: hexNut(nut)
     Takes a nut(array of nums as defined below or by calling: makeNut(bolt). makeNut() takes a bolt and makes a standard hex nut from the bolt information.
     
-***Print a Washer/Spacer***
+# Print a Washer/Spacer
 Call the module: washer(wash)
     Takes a washer(array of nums as defined below or by calling: makeWasher(bolt). makeWasher() takes a bolt and makes a standard washer from the given bolt. You can also use washers to create a taller spacer.
 
-************Bolt Definition************
+# Bolt Definition
 
 [0] threadOuterDiameter
       Outer diameter of the threads
@@ -39,8 +39,8 @@ Call the module: washer(wash)
       -1 for inner diameter of threads, 0 for outer diameter of threads, other input is custom diameter
 [9] counterSink
       Counter sink at both ends of bolt [-1:2]
-      
-************Nut Definition************
+     
+# Nut Definition
 
 [0] threadOuterDiameter
       Outer diameter of the threads but for nuts normally you want it about one mm larger than bolt
@@ -57,13 +57,13 @@ Call the module: washer(wash)
 [6] headHeight
       Height of nut
 [7] NONE
-      
+      Unused spacer
 [8] NONE
-      
+      Unused spacer
 [9] counterSink
       -2
       
-************Washer Definition************
+# Washer Definition
 
 [0] threadDiameter
       Outer diameter of bolt threads
@@ -71,5 +71,3 @@ Call the module: washer(wash)
       Outer diameter of wahser
 [2] washerHeight
       Height of washer
-      
-*/
