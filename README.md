@@ -7,22 +7,26 @@ For vertical printing, a gap between the bolt and nut of 0.1mm.
 
 # Print A Bolt
 Call the module: hexBolt(bolt)
-    Takes a bolt(array of nums as defined below) and displays it to the screen.
+    Takes a bolt, array of nums as defined below..
     
 # Print A Nut
 Call the module: hexNut(nut)
-    Takes a nut(array of nums as defined below or by calling: makeNut(bolt). makeNut() takes a bolt and makes a standard hex nut from the bolt information.
+    Takes a nut, array of nums as defined below or by calling: makeNut(bolt). makeNut() takes a bolt and makes a standard hex nut from the bolt information.
     
 # Print a Washer/Spacer
 Call the module: washer(wash)
-    Takes a washer(array of nums as defined below or by calling: makeWasher(bolt). makeWasher() takes a bolt and makes a standard washer from the given bolt. You can also use washers to create a taller spacer.
+    Takes a washer, array of nums as defined below or by calling: makeWasher(bolt). makeWasher() takes a bolt and makes a standard washer from the given bolt. You can also use washers to create a taller spacer.
 
 # Bolt Definition
 
 [0] threadOuterDiameter
+
       Outer diameter of the threads
+      
 [1] threadStep
+
       M6=1, M8=1.25, M10=1.5, M12=1.75, M16=2
+      
 [2] stepShapeDegrees
       Normally 30 degrees, for printing might want greater
 [3] threadLength
