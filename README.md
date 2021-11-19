@@ -43,9 +43,9 @@ Call the module: washer(wash)
 # Nut Definition
 
 [0] threadOuterDiameter
-      Outer diameter of the threads but for nuts normally you want it about one mm larger than bolt
+  Outer diameter of the threads but for nuts normally you want it about one mm larger than bolt
 [1] threadStep
-      M6=1, M8=1.25, M10=1.5, M12=1.75, M16=2
+  M6=1, M8=1.25, M10=1.5, M12=1.75, M16=2
 [2] stepShapeDegrees
       Normally 30 degrees, for printing might want greater
 [3] threadLength
