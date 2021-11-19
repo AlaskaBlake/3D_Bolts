@@ -248,15 +248,3 @@ module counterSinkEnds(nut){
                  r2=getThreadOuterDiameter(nut)/2, 
                  $fn=floor(getThreadOuterDiameter(nut)*PI/getResolution(nut)));
 }
-
-
-
-hexBolt(basicBolt);
-nut = makeNut(basicBolt);
-wash = makeWasher(basicBolt);
-
-translate([0,30,0])
-    hexNut(nut);
-
-translate([30,0,0])
-    washer(wash);
