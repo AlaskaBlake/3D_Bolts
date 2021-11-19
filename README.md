@@ -20,7 +20,7 @@ Call the module: washer(wash)
 # Bolt Definition
 
 [0] threadOuterDiameter  
-<hr />Outer diameter of the threads  
+> Outer diameter of the threads  
 [1] threadStep  
       M6=1, M8=1.25, M10=1.5, M12=1.75, M16=2  
 [2] stepShapeDegrees  
