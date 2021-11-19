@@ -6,15 +6,15 @@ For extra strength in your prints, it is advised for bolts that you print them s
 For vertical printing, a gap between the bolt and nut of 0.1mm.
 
 # Print A Bolt
-Call the module: hexBolt(bolt)
+Call the module: hexBolt(bolt)  
     Takes a bolt, array of nums as defined below..
     
 # Print A Nut
-Call the module: hexNut(nut)
+Call the module: hexNut(nut)  
     Takes a nut, array of nums as defined below or by calling: makeNut(bolt). makeNut() takes a bolt and makes a standard hex nut from the bolt information.
     
 # Print a Washer/Spacer
-Call the module: washer(wash)
+Call the module: washer(wash)  
     Takes a washer, array of nums as defined below or by calling: makeWasher(bolt). makeWasher() takes a bolt and makes a standard washer from the given bolt. You can also use washers to create a taller spacer.
 
 # Bolt Definition
