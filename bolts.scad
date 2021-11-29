@@ -123,11 +123,11 @@ module hexBolt(bolt){
                 }
                 else if (getNonThreadDiameter(bolt) == 0){
                     union(){
-                        cylinder(h=getNonThreadLength(bolt)-getThreadStep(bolt)/2, r=getThreadOuterDiamter(bolt)/2, 
+                        cylinder(h=getNonThreadLength(bolt)-getThreadStep(bolt)/2, r=getThreadOuterDiameter(bolt)/2, 
                                  $fn=floor(getThreadOuterDiameter(bolt)*PI / getResolution(bolt)));
                         
                         translate([0,0,getNonThreadLength(bolt)-getThreadStep(bolt)/2])
-                            cylinder(h=getThreadStep(bolt)/2, r1=getThreadOuterDiamter(bolt)/2, 
+                            cylinder(h=getThreadStep(bolt)/2, r1=getThreadOuterDiameter(bolt)/2, 
                                      r2=nonThreadRadius,$fn=floor(getThreadOuterDiameter(bolt)*PI / getResolution(bolt)));
                     }
                 }
