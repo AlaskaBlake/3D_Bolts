@@ -86,7 +86,7 @@ function makeNut(bolt) = [getThreadOuterDiameter(bolt)+.1,
                           -2
                           ];
                           
-function makeWasher(bolt) = [getThreadOuterDiameter(bolt)+.5,
+function makeWasher(bolt) = [getThreadOuterDiameter(bolt)+.3,
                              getThreadOuterDiameter(bolt)+15,
                              3
                              ];
