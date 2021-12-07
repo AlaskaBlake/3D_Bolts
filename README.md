@@ -5,9 +5,11 @@ Math for threads was found analyzing code by Aubenc and Mike Thompson on Thingiv
 For extra strength in your prints, it is advised for bolts that you print them sideways and a gap of 0.3mm between the bolt and nut.
 For vertical printing, a gap between the bolt and nut of 0.1mm.
 
+I have found that to achieve the most strength is to print the bolt horizontally and the nut with the threads facing vertially.
+
 # Print A Bolt
 Call the module: hexBolt(bolt)  
-    Takes a bolt, array of nums as defined below..
+    Takes a bolt, array of nums as defined below.
     
 # Print A Nut
 Call the module: hexNut(nut)  
